@@ -557,22 +557,30 @@ img{
 
 
 
-/* About Us */
-.numbers .numbers-items {
+/* ----------------- About Us ----------------- */
+.statistics .statistics-items {
     font-family: Roboto, sans-serif;
     text-align: center;
 }
 
-.numbers-items h1 {
-    font-size: 19px;
+.statistics-items h1 {
+    font-size: 22px;
     font-weight: bold;
 }
 
-.numbers-items .stats {
+.statistics-items .stats {
     font-size: 50px;
     color: #895c7e;
     font-weight: bold;
 }
+
+.statistics-items {
+    font-size: 19px;
+    padding: 30px 0;
+}
+
+
+/* About Awards */
 
 
 

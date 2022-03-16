@@ -18,7 +18,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="/about.html">About Us</a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Contact Us</a></li>
@@ -56,32 +56,32 @@
     </section>
 
 
-    <!-- Numbers -->
-    <section class="numbers">
-        <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 0 20px;">
+    <!-- Statistics -->
+    <section class="statistics" style="background-color: #eee;">
+        <div style="display: grid; grid-template-columns: repeat(5, 1fr); justify-content: center; gap: 10px; margin: 0 20px;">
             <div>
-                <img src="/images/about_us/map_of_Africa.png" alt="" style="width: 100%; height: auto;">         
+                <img src="/images/about_us/map_of_Africa.png" alt="" style="width: 100%; height: auto; text-align: center; padding: 40px 0;">         
             </div>
 
-            <div class="numbers-items">
+            <div class="statistics-items">
                 <h1>Business Entities</h1>
                 <p class="stats">4</p>
                 <p>Countries</p>
             </div>
 
-            <div class="numbers-items">
+            <div class="statistics-items">
                 <h1>Digital Reach</h1>
                 <p class="stats">44</p>
                 <p>African Countries</p>
             </div>
 
-            <div class="numbers-items">
-                <h1>competency</h1>
+            <div class="statistics-items">
+                <h1>Competency</h1>
                 <p class="stats">120+</p>
                 <p>Certified Professionals</p>
             </div>
 
-            <div class="numbers-items">
+            <div class="statistics-items">
                 <h1>Success Mileage</h1>
                 <p class="stats">3,200+</p>
                 <p>Satisfied Customers</p>
@@ -99,6 +99,16 @@
             <div style="width: 50%; padding: 0 20px; margin-right: 20px; text-align: justify; line-height: 2;">
                 Reliance Infosystems extensively uses consultative approach to locate customers&rsquo; journey and help them reimagine their businesses for unmatched success outcome. Our activities are geared around three business support pillars namely Digital Transformation, Operational Excellence and Protection Assurance. These three support pillars are heavily guided by our Success Outcome Philosophy. 
             </div>
+        </div>
+    </section>
+
+
+    <!-- The Difference -->
+    <section class="difference" style="background-color: var(--primary-color);">
+        <div style="height: 100px; display: grid; justify-content: center; align-items: center;
+        
+        font-family: roboto, sans-serif; font-size: 30px; color: white;">
+            <h1>What makes Reliance so different.</h1>
         </div>
     </section>
 
@@ -122,33 +132,92 @@
     </section>
 
 
-    <!-- Award Winning -->
-        <div class="container flex">
-            <div class="card">
-                    <img src="/images/Microsoft-country-partner-min-1.png" alt="Microsoft Country Partner of the Year">
-            </div>
 
-            <div class="card">
-                    <img src="/images/Ntita-min-1.png" alt="NTITA Awards">
-            </div>
-            
-            <div class="card">
-                    <img src="/images/BOICT-min-1.png" alt="BoICT Awards">
-            </div>
-            
-            <div class="card">
-                    <img src="/images/LCCI-min-1.png" alt="LCCI Awards">
-            </div>
-            
-            <div class="card">
-                    <img src="/images/sophos-platinum-min.jpg" alt="Sophos Platinum Partner">
-            </div>
-            
-            <div class="card">
-                    <img src="/images/Microsoft-Gold-1024x259-min-768x194.png" alt="Microsoft Gold Partner">
+<style>
+    .about-awards {
+        margin-top: -100px;
+        font-family: roboto, sans-serif;
+    }
+
+    .about-awards .au-grid-wrapper {
+        background-color: #2E3F4F;
+        height: 250px;
+        display: grid;
+        position: relative;
+        z-index: -1;
+    }
+
+    .about-awards .au-grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+
+        max-width: 1100px;
+        padding: 0 20px;
+        border: solid 1px;
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .au-grid-items {
+        padding: 20px;
+    }
+
+    .about-awards img {
+        width: 100%;
+        height: auto;
+    }
+
+    .au-awards-image {
+        max-width: 900px;
+        margin: auto;
+        position: relative;
+
+        bottom: -150px;
+
+        padding: 0px 30px;
+        
+    }
+
+</style>
+    <!-- About Awards -->
+    <section class="about-awards">
+        <div style="text-align: center; font-size: 30px; color:var(--primary-color); position: relative; top: 120px;">
+            <h1 style="font-weight:bold">Awards Won</h1>
+        </div>
+
+        <div class="au-awards-image">
+            <img src="/images/about_us/Awards-Won-min.png" alt="">
+        </div>
+
+        <div class="au-grid-wrapper">
+            <div class="au-grid-container">
+                <div class="au-grid-items">
+                    <img src="/images/about_us/MICROSOFT-min.png" alt="Microsoft Country Partner of the Year">
+                </div>
+
+                <div class="au-grid-items">
+                    <img src="/images/about_us/BOICT-min.png" alt="NTITA Awards">
+                </div>
+                
+                <div class="au-grid-items">
+                    <img src="/images/about_us/NTITA-min.png" alt="BoICT Awards">
+                </div>
+                
+                <div class="au-grid-items">
+                    <img src="/images/about_us/LCCI-min.png" alt="LCCI Awards">
+                </div>
             </div>
         </div>
     </section>
+
+
+    <!-- Award Winning -->
 
 
 
